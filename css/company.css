@@ -3,61 +3,61 @@
 /* company
 ---------------------------------------------- */
 .section__wrapper:last-of-type {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .company-info__list {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .company-info__item {
-    display: flex;
-    align-items: center;
-    padding: 30px;
-    border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  border-bottom: 1px solid #ddd;
 }
 
 .company-info__title,
 .company-info__detail {
-    font-size: 1.5rem;
-    letter-spacing: 0.05em;
-    color: #151515;
+  font-size: 1.5rem;
+  letter-spacing: 0.05em;
+  color: #151515;
 }
 
 .company-info__title {
-    flex-basis: 200px;
+  flex-basis: 200px;
 }
 
 .company-info__map {
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 
 .company-info__map iframe {
-    height: 400px;
+  height: 400px;
 }
 
 /* sp
 ---------------------------------------------- */
 @media screen and (max-width: 748px) {
-    .company-info__item {
-        padding: 20px;
-    }
+  .company-info__item {
+    padding: 20px;
+  }
 
-    .company-info__title,
-    .company-info__detail {
-        font-size: 1.4rem;
-        letter-spacing: inherit;
-    }
+  .company-info__title,
+  .company-info__detail {
+    font-size: 1.4rem;
+    letter-spacing: inherit;
+  }
 
-    .company-info__title {
-        flex-basis: 100px;
-    }
+  .company-info__title {
+    flex-basis: 100px;
+  }
 
-    .company-info__map {
-        margin-bottom: 80px;
-    }
+  .company-info__map {
+    margin-bottom: 80px;
+  }
 
-    .company-info__map iframe {
-        height: 300px;
-    }
+  .company-info__map iframe {
+    height: 300px;
+  }
 }
